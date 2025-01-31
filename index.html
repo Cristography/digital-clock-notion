@@ -9,7 +9,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            height: 100vh; /* Ensure full height */
             background-color: #282c34;
             color: white;
             font-family: Arial, sans-serif;
@@ -17,14 +17,8 @@
             margin: 0; /* Remove default margin */
             overflow: hidden; /* Prevent scrollbars */
         }
-        /* Hide scrollbar for Chrome, Safari and Opera */
-        body::-webkit-scrollbar {
-            display: none;
-        }
-        /* Hide scrollbar for IE, Edge and Firefox */
-        body {
-            -ms-overflow-style: none; /* IE and Edge */
-            scrollbar-width: none; /* Firefox */
+        #clock {
+            white-space: nowrap; /* Prevent wrapping */
         }
     </style>
 </head>
